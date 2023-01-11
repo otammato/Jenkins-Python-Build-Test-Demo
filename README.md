@@ -11,7 +11,7 @@
 <br><br>
 #### Jenkins log in
 - Go to localhost:8080 and you should be prompted for the password from a previous step
-- <br><br>
+- Log in to Jenkins<br><br>
 #### Create 3 stages: "Hello", "Build" and "Test"
 <pre>
 pipeline {
