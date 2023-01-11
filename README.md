@@ -76,7 +76,15 @@ Then launch a build again. Now it shows red.
   <img src="images/Screenshot 2023-01-11 at 14.59.28.png" width="700"/>
 </p>
 <br><br>
+
 Check the log
+<br><br>
 <p align="center">
   <img src="images/Screenshot 2023-01-11 at 15.18.38.png" width="700"/>
 </p>
+<br><br>
+The log shows now that 1 of 4 test is failed and explains why
+<br><br>
+<br><br>
+
+This shows that our pipeline works as expected
