@@ -43,4 +43,5 @@ pipeline {
   <img src="images/Screenshot 2023-01-11 at 12.36.34.png" width="700"/>
 </p>
 <br><br>
-#### Test if a pipeline works as expected
+
+#### Test if a pipeline does work as expected
