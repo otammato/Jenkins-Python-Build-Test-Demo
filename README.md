@@ -1,6 +1,6 @@
 # CI/CD jenkins-python-build-test-demo
 <br><br>
-#### Installation with Docker and installing python3 and pytest inside the Docker container.
+#### 1. Jenkins installation with Docker and installing python3 and pytest inside the Docker container.
 - Install Docker on your local machine.
 - Run this command: docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
 - Write down the password that's created for you during this first time set up process: like 8458e513eacd41d8875ca3253f47d3a0
@@ -9,10 +9,10 @@
 - Run command: apt-get update and apt-get install python3 and apt-get install python3-pip to install Python3 and pip within the Docker container
 - Run pip install pytest to install the pytest package that actually runs the unit/integ tests during your test stage within the pipeline
 <br><br>
-#### Jenkins log in
+#### 2. Jenkins log in
 - Go to localhost:8080 and you should be prompted for the password from a previous step
 - Log in to Jenkins<br><br>
-#### Create 3 stages: "Hello", "Build" and "Test"
+#### 3. Create 3 stages: "Hello", "Build" and "Test"
 <br>
 This following script is a Jenkins pipeline written in the Jenkins Pipeline Domain Specific Language (DSL). The pipeline is comprised of three stages: "Hello," "Build," and "Test."
 
@@ -56,7 +56,7 @@ pipeline {
 </p>
 <br><br>
 
-#### Test if a pipeline does work as expected
+#### 4. Test if a pipeline does work as expected
 
 <br><br>
 <p align="center">
@@ -73,9 +73,9 @@ pipeline {
 The green indicates all stages completed sucessfully and log shows that all test cases are passed sucessfully. This means that our code from ops.py works correctly and can be deployed to a production environment.
 
 <br><br><br><br>
-#### Now we intentionally compromise one test and check the result
+#### 5. Now we intentionally compromise one test case and check the log
 
-For the first test we check if 2+3 equals 6
+For the first test case we check if 2+3 equals 6
 
 <br><br>
 <p align="center">
