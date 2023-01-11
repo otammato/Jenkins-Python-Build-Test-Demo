@@ -78,5 +78,5 @@ Then launch a build again. Now it shows red.
 <br><br>
 Check the log
 <p align="center">
-  <img src="images/Screenshot 2023-01-11 at 14.59.28.png" width="700"/>
+  <img src="images/Screenshot 2023-01-11 at 15.18.38.png" width="700"/>
 </p>
