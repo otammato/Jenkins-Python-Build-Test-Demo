@@ -37,6 +37,6 @@ pipeline {
 </pre>
 
 <br><br>
-<p align="center" width="200">
-  <img src="https://github.com/otammato/monolith_to_microservices/blob/main/images/monolith_3-Image-Deployment-to-Amazon-ECR.ef4f8b89baccbd37380998a8d896126df5ed8a3b.png" width="200"/>
+<p align="center">
+  <img src="https://github.com/otammato/monolith_to_microservices/blob/main/images/monolith_3-Image-Deployment-to-Amazon-ECR.ef4f8b89baccbd37380998a8d896126df5ed8a3b.png" width="700"/>
 </p>
