@@ -57,3 +57,5 @@ pipeline {
   <img src="images/Screenshot 2023-01-11 at 14.24.06.png" width="700"/>
 </p>
 <br><br>
+
+The green means all stages completed sucessfully and log shows that all tests are passed sucessfully
