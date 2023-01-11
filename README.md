@@ -40,7 +40,7 @@ def divide(x,y):
 </pre>
 
 #### 3.2. The test_ops.py script with four test cases:
-These are four test functions written in Python, each of which tests a different mathematical operation. 
+These are four test cases written with functions in Python, each of which tests a different mathematical operation. 
 
 - The first test function, test_add(), asserts that the output of the add() function is equal to 5 when given the input of 2 and 3. 
 
