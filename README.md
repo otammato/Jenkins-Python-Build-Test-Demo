@@ -13,6 +13,17 @@
 - Go to localhost:8080 and you should be prompted for the password from a previous step
 - Log in to Jenkins<br><br>
 #### Create 3 stages: "Hello", "Build" and "Test"
+<br>
+This following script is a Jenkins pipeline written in the Jenkins Pipeline Domain Specific Language (DSL). The pipeline is comprised of three stages: "Hello," "Build," and "Test."
+
+In the "Hello" stage, the pipeline uses the "checkout" step to check out the code from a Git repository, specifically the 'main' branch of a repository at the URL "https://github.com/otammato/jenkins-python-build-test-demo.git".
+
+The "Build" stage uses the "git" step to again specify the repository and branch to check out (main branch of the same repository) and "sh" step 'python3 ops.py' to run some python command. In Jenkins, the "sh" step is usedto run shell commands as part of the build process. The step takes a single argument, which is the command to be executed.
+
+In the "Test" stage, the pipeline uses the "sh" step to run the command "python3 -m pytest", which runs the pytest test runner on the code that was checked out in the previous stages. This will run the test cases on the code checked out.
+
+Overall, this pipeline is checking out code from a Git repository, running some python script and then running the test cases on the code using Pytest.
+<br>
 <pre>
 pipeline {
     agent any
@@ -37,6 +48,7 @@ pipeline {
     }
 }
 </pre>
+
 
 <br><br>
 <p align="center">
