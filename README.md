@@ -65,9 +65,11 @@ The green means all stages completed sucessfully and log shows that all tests ar
 
 For the first test we check if 2+3 equals 6
 
+Then launch a build again. Now it shows red.
 <br><br>
 <p align="center">
   <img src="images/Screenshot 2023-01-11 at 14.59.28.png" width="700"/>
 </p>
 <br><br>
 
+Check the log
