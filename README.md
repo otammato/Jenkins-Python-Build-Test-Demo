@@ -99,4 +99,4 @@ The log shows now that 1 of 4 test is failed and explains why
 <br><br>
 <br><br>
 
-This shows that our pipeline works as expected
+This overall results show that our pipeline works as expected
