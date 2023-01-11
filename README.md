@@ -1,7 +1,7 @@
 # CI/CD jenkins-python-build-test-demo
 <br><br>
 
-In this demo we create stages to build and automatically test a simple script to make sure the code is ready for deployment.
+In this demo we create stages to build and automatically test a simple Python script to make sure the code is ready for deployment.
 
 <br><br>
 #### 1. Jenkins installation with Docker and installing python3 and pytest inside the Docker container.
