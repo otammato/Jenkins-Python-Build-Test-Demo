@@ -1,5 +1,9 @@
 # CI/CD jenkins-python-build-test-demo
 <br><br>
+
+In this demo we create stages to build and automatically test a simple script to make sure the code is ready for deployment.
+
+<br><br>
 #### 1. Jenkins installation with Docker and installing python3 and pytest inside the Docker container.
 - Install Docker on your local machine.
 - Run this command: docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
