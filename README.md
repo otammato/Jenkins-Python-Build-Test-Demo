@@ -38,5 +38,5 @@ pipeline {
 
 <br><br>
 <p align="center">
-  <img src="https://github.com/otammato/monolith_to_microservices/blob/main/images/monolith_3-Image-Deployment-to-Amazon-ECR.ef4f8b89baccbd37380998a8d896126df5ed8a3b.png" width="700"/>
+  <img src="images/Screenshot 2023-01-11 at 12.36.34" width="700"/>
 </p>
