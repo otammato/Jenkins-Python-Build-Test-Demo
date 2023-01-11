@@ -61,11 +61,9 @@ pipeline {
 The green means all stages completed sucessfully and log shows that all tests are passed sucessfully
 
 <br><br><br><br>
-#### Now we intentionally comptomise one test and check the result
+#### Now we intentionally compromise one test and check the result
 
 For the first test we check if 2+3 equals 6
-
-Then launch a build again. Now it shows red.
 
 <br><br>
 <p align="center">
@@ -73,6 +71,7 @@ Then launch a build again. Now it shows red.
 </p>
 <br><br>
 
+Then launch a build again. Now it shows red.
 <p align="center">
   <img src="images/Screenshot 2023-01-11 at 14.59.28.png" width="700"/>
 </p>
