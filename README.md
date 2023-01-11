@@ -62,12 +62,12 @@ The green means all stages completed sucessfully and log shows that all tests ar
 
 
 #### Now we intentionally comptomise one test and check the result
-<pre>
 
-</pre>
-For the first test we try if 2+3 equals 6
+For the first test we check if 2+3 equals 6
+
 <br><br>
 <p align="center">
-  <img src="images/Screenshot 2023-01-11 at 14.46.02.png" width="700"/>
+  <img src="images/Screenshot 2023-01-11 at 14.59.28.png" width="700"/>
 </p>
 <br><br>
+
