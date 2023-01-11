@@ -1,6 +1,6 @@
 # jenkins-python-build-test-demo
 <br><br>
-#### Installation with Docker
+#### Installation with Docker and installing python3 and pytest inside the Docker container.
 - Install Docker on your local machine.
 - Run this command: docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
 - Write down the password that's created for you during this first time set up process: like 8458e513eacd41d8875ca3253f47d3a0
@@ -9,3 +9,28 @@
 - Run command: docker exec -it -u 0 8f7c957e19fd /bin/bash to open an interactive terminal within the Docker Container as root (user 0)
 - Run command: apt-get update and apt-get install python3 and apt-get install python3-pip to install Python3 and pip within the Docker container
 - Run pip install pytest to install the pytest package that actually runs the unit/integ tests during your test stage within the pipeline
+<br><br>
+<pre>
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/otammato/jenkins-python-build-test-demo.git']])
+            }
+        }
+        stage('Build') {
+            steps {
+                git branch: 'main', url: 'https://github.com/otammato/jenkins-python-build-test-demo.git'
+                sh 'python3 ops.py'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'python3 -m pytest'
+            }
+        }
+    }
+}
+</pre>
