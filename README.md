@@ -18,13 +18,13 @@
 #### 3.1. The ops.py script:
 This is a Python script that defines four functions: "add," "subtract," "multiply," and "divide".
 
-The "add" function takes in two arguments, "x" and "y," and returns the sum of the two arguments.
+- The "add" function takes in two arguments, "x" and "y," and returns the sum of the two arguments.
 
-The "subtract" function takes in two arguments, "x" and "y," and returns the difference of the two arguments (x minus y).
+- The "subtract" function takes in two arguments, "x" and "y," and returns the difference of the two arguments (x minus y).
 
-The "multiply" function takes in two arguments, "x" and "y," and returns the product of the two arguments.
+- The "multiply" function takes in two arguments, "x" and "y," and returns the product of the two arguments.
 
-The "divide" function takes in two arguments, "x" and "y," and returns the quotient of the two arguments (x divided by y).
+- The "divide" function takes in two arguments, "x" and "y," and returns the quotient of the two arguments (x divided by y).
 <pre>
 def add(x,y):
     return x+y
@@ -40,11 +40,34 @@ def divide(x,y):
 </pre>
 
 #### 3.2. The test_ops.py script with four test cases:
+These are four test functions written in Python, each of which tests a different mathematical operation. 
 
+- The first test function, test_add(), asserts that the output of the add() function is equal to 6 when given the input of 2 and 3. 
+
+- The second test function, test_subtract(), asserts that the output of the subtract() function is equal to -1 when given the input of 2 and 3. 
+
+- The third test function, test_multiply(), asserts that the output of the multiply() function is equal to 6 when given the input of 2 and 3. 
+
+- The last test function, test_divide(), asserts that the output of the divide() function is equal to 2 when given the input of 10 and 5.
+
+If these functions will fail as the output doesn't match expected value
 <pre>
+from ops import *
+
+def test_add():
+    assert add(2,3) == 6
+
+def test_subtract():
+    assert subtract(2, 3) == -1
+
+def test_multiply():
+    assert multiply(2, 3) == 6
+
+def test_divide():
+    assert divide(10,5) == 2
 </pre>
 
-#### 3. Create 3 stages: "Hello", "Build" and "Test"
+#### 4. Create 3 stages: "Hello", "Build" and "Test"
 <br>
 This following script is a Jenkins pipeline written in the Jenkins Pipeline Domain Specific Language (DSL). The pipeline is comprised of three stages: "Hello," "Build," and "Test."
 
@@ -88,7 +111,7 @@ pipeline {
 </p>
 <br><br>
 
-#### 4. Test if a pipeline does work as expected
+#### 5. Test if a pipeline does work as expected
 
 <br><br>
 <p align="center">
@@ -105,7 +128,7 @@ pipeline {
 The green indicates all stages completed sucessfully and log shows that all test cases are passed sucessfully. This means that our code from ops.py works correctly and can be deployed to a production environment.
 
 <br><br><br><br>
-#### 5. Now we intentionally compromise one test case and check the log
+#### 6. Now we intentionally compromise one test case and check the log
 
 For the first test case we check if 2+3 equals 6
 
