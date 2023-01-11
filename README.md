@@ -1,4 +1,4 @@
-# CICD jenkins-python-build-test-demo
+# CI/CD jenkins-python-build-test-demo
 <br><br>
 #### Installation with Docker and installing python3 and pytest inside the Docker container.
 - Install Docker on your local machine.
