@@ -70,7 +70,7 @@ pipeline {
 </p>
 <br><br>
 
-The green means all stages completed sucessfully and log shows that all tests are passed sucessfully
+The green indicates all stages completed sucessfully and log shows that all tests are passed sucessfully
 
 <br><br><br><br>
 #### Now we intentionally compromise one test and check the result
