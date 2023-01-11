@@ -38,7 +38,7 @@ def multiply(x,y):
 def divide(x,y):
     return x/y
 </pre>
-
+<br><br>
 #### 3.2. The test_ops.py script with four test cases:
 These are four test cases written with functions in Python, each of which tests a different mathematical operation. 
 
