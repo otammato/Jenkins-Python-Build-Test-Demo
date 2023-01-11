@@ -48,7 +48,7 @@ pipeline {
 
 <br><br>
 <p align="center">
-  <img src="images/Screenshot 2023-01-11 at 14.17.20.png" width="700"/>
+  <img src="images/Screenshot 2023-01-11 at 14.29.42.png" width="700"/>
 </p>
 <br><br>
 
