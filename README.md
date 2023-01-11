@@ -66,6 +66,7 @@ def test_multiply():
 def test_divide():
     assert divide(10,5) == 2
 </pre>
+<br><br>
 
 #### 4. Create 3 stages: "Hello", "Build" and "Test"
 <br>
