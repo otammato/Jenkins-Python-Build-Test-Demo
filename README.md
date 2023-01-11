@@ -12,6 +12,38 @@
 #### 2. Jenkins log in
 - Go to localhost:8080 and you should be prompted for the password from a previous step
 - Log in to Jenkins<br><br>
+<br><br>
+
+#### 3. A code to be deployed and test cases.
+#### 3.1. The ops.py script:
+This is a Python script that defines four functions: "add," "subtract," "multiply," and "divide".
+
+The "add" function takes in two arguments, "x" and "y," and returns the sum of the two arguments.
+
+The "subtract" function takes in two arguments, "x" and "y," and returns the difference of the two arguments (x minus y).
+
+The "multiply" function takes in two arguments, "x" and "y," and returns the product of the two arguments.
+
+The "divide" function takes in two arguments, "x" and "y," and returns the quotient of the two arguments (x divided by y).
+<pre>
+def add(x,y):
+    return x+y
+
+def subtract(x,y):
+    return x-y
+
+def multiply(x,y):
+    return x*y
+
+def divide(x,y):
+    return x/y
+</pre>
+
+#### 3.2. The test_ops.py script with four test cases:
+
+<pre>
+</pre>
+
 #### 3. Create 3 stages: "Hello", "Build" and "Test"
 <br>
 This following script is a Jenkins pipeline written in the Jenkins Pipeline Domain Specific Language (DSL). The pipeline is comprised of three stages: "Hello," "Build," and "Test."
