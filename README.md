@@ -70,7 +70,7 @@ pipeline {
 </p>
 <br><br>
 
-The green indicates all stages completed sucessfully and log shows that all tests are passed sucessfully
+The green indicates all stages completed sucessfully and log shows that all test cases are passed sucessfully. This means that our code from ops.py works correctly and can be deployed to a production environment.
 
 <br><br><br><br>
 #### Now we intentionally compromise one test and check the result
